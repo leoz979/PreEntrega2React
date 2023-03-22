@@ -38,7 +38,7 @@ function ItemListContainerEstreno() {
     return(
         <Container fluid>
             { <Row>
-               {posts.map(p => <ItemList key={p.id}  image={p.imgUrl} nombre={p.nombre} genero={p.genero}/>)}
+               {posts.map(p => <ItemList key={p.id}  image={p.imgUrl} nombre={p.nombre} genero={p.genero} idP={p.id}/>)}
               
             </Row> }
         </Container>
