@@ -34,7 +34,7 @@ function Itemid() {
         getPost()
     }, [id])
     return(
-        <Container fluid>
+        <Container fluid className="contenedorPelicula">
             { <Row>
                {posts.map(p => <ItemDetalle key={p.id}  image={p.imgUrl} nombre={p.nombre} genero={p.genero} idP={p.id} precio={p.precio} calificacion={p.calificacion} />)}
               

@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 function ItemDetalle({image, nombre, genero, precio, calificacion}) {
     precio.toLocaleString("en");
     return (
-      <Col lg={4}>
+      <Col lg={3}>
               <Card >
                   <Card.Img variant="top" src={image} />
                   <Card.Body>

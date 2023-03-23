@@ -6,7 +6,7 @@ import Carrito from './CartWidget';
 import '../Estilo/style.css'
 function NavBar() {
   return (
-    <div className='container'>
+    <div className='container contenedorNavbar'>
       <div className='btn-group'>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           

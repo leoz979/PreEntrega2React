@@ -36,3 +36,16 @@ body {
 .contenedorCard{
   margin-bottom: 10px;
 }
+
+.contenedorPelicula{
+  
+  position: relative;
+  left: 35%;
+}
+
+.contenedorNavbar{
+  
+  position: relative;
+  left: 20%;
+  border: 15px;
+}
